@@ -10,4 +10,4 @@ This is the source code for my portfolio website. I built this to showcase what 
 
 ## Demo
 
-For business inquiries you can contact me here on git : git/laadnani.
+For business inquiries you can contact me here on git : https://laadnani.netlify.app
