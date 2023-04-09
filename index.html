@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./all.min.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">        
+  </head>
+  <body>
+    <nav>
+      <h1 id="logo">Mohamed Laadnani</h1>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Mohamed, Software Engineer. A self-taught developer with an
+              interest in Computer Science, Biology graduate and e-marketing enthousiast.
+            </p>
+            <p>
+              “The computer was born to solve problems that did not exist before.”
+            <em>— Bill Gates</em>
+            </p>
+            <p>
+              In my free time I like to resolve code problems to educate myself on how other fellow programmers look at the same problem
+              life science, and Molecular Biology are also one of my biggest subjects I like to educate myself on. 
+              I also like to take my chances of winning big.
+            </p>
+            <p>
+              Fun fact! I've been programing for
+              <span id="time-container">0</span> seconds!
+            </p>
+          </div>
+          <img
+            src="https://avatars.hsoubcdn.com/c750648f21f70fc487150ecf3e004df3?s=256"
+            alt="My picture in my office"
+            class="portrait"
+          />
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="devicon-javascript-plain colored"></i>  
+          <i class="devicon-html5-plain"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-github-original-wordmark"></i>
+          
+          <i class="devicon-chrome-plain-wordmark"></i>
+          
+          <i class="devicon-canva-original"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer>Made with <span class="heart">♥</span> in Casablancaf</footer>
+  </body>
+  <script>
+    const timeContainer = document.getElementById("time-container");
+    const BIRTH_DAY = "07-10-1994";
+    const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
+    const intlNumberFormatter = new Intl.NumberFormat("en-US");
+
+    setInterval(() => {
+      const now = new Date();
+      const difference = Math.floor(
+        (now.getTime() - BIRTH_DAY_DATE.getTime()) / 1000
+      );
+
+      timeContainer.innerText = intlNumberFormatter.format(difference);
+    }, 1000);
+  </script>
+</html>

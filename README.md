@@ -1,16 +1,13 @@
-### Hi there 👋
+# Portfolio Project
 
-<!--
-**Laadnani/Laadnani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This is the source code for my portfolio website. I built this to showcase what I've been working on and what I can do for my clients.
 
-Here are some ideas to get you started:
+## Built with
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* HTML
+* CSS
+* [Font Awesome](https://fontawesome.com/)
+
+## Demo
+
+For business inquiries you can contact me here on git : git/laadnani.
