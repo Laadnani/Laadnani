@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Laadnani Mohamed</h1>
+<h1 align="center" justify-content: center>Hi 👋, I'm Laadnani Mohamed</h1>
 <h3 align="center">A passionate developer from MA</h3>
 
 - 🔭 I’m currently working on [Saas for small sized companies](https://github.com/Laadnani/react-saas-template)
